@@ -15,7 +15,7 @@
 | 2313912 | Lê Công Vinh | vinh.le020705@hcmut.edu.vn |
 
 
-🌐 **Landing Page & Reports:**  🔗 [Landing Pages](https://caotaytang.github.io/ML-251/)  
+🌐 **Landing Page & Reports:**  🔗 [Cooming soon]()  
 
 ---
 
@@ -23,9 +23,9 @@
 
 Repo này chứa 4 bài tập lớn của môn học *Học Máy – CO3117*:  
 
-| Project | Domain | Status | Landing Page | Colab |
+| Project | Domain | Status | Dataset | Colab |
 |---------|--------|--------|------------------|-------|
-| **BTL1 – Amazon Product** | Tabular Data (Kaggle) | ✅ Completed | [Tabular Data](https://caotaytang.github.io/ml251/tabular) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lnNVOveIgLKCa18DMIH-YCL-XuOP2igN?usp=sharing) |
+| **BTL1 – Amazon Product** | Tabular Data (Kaggle) | ✅ Completed | [Tabular Data](https://www.kaggle.com/datasets/ikramshah512/amazon-products-sales-dataset-42k-items-2025) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lnNVOveIgLKCa18DMIH-YCL-XuOP2igN?usp=sharing) |
 | **BTL2 – Text Processing** | NLP / Text Data | 🔜 Upcoming | _TBD_ | ![Colab Badge](https://img.shields.io/badge/Colab-coming--soon-lightgrey?logo=googlecolab&logoColor=white) |
 | **BTL3 – Image Recognition** | Computer Vision | 🔜 Upcoming | _TBD_ | ![Colab Badge](https://img.shields.io/badge/Colab-coming--soon-lightgrey?logo=googlecolab&logoColor=white) |
 | **Extension – Advanced Topics** | (HMM / Bayesian Network / Conditional Random Field) | 🔜 Upcoming | _TBD_ | ![Colab Badge](https://img.shields.io/badge/Colab-coming--soon-lightgrey?logo=googlecolab&logoColor=white) |
