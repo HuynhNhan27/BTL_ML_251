@@ -11,11 +11,12 @@
 |------|-----------|-------|
 | 2312420 | Huỳnh Đức Nhân | nhan.huynhgl272@hcmut.edu.vn |
 | 2312097 | Nguyễn Thiện Minh | thienminha5k31@gmail.com |
-| 2313638 | Nguyễn Lưu Khánh Trình |  |
+| 2313638 | Nguyễn Lưu Khánh Trình | trinh.nguyenktmtbk0711@hcmut.edu.vn |
 | 2313912 | Lê Công Vinh | vinh.le020705@hcmut.edu.vn |
 
 
-🌐 **Landing Page & Reports:**  🔗 [Cooming soon]()  
+🌐 **Landing Page:** [Comming soon]()  
+🔗 **Github Repo:** [Github](https://github.com/HuynhNhan27/BTL_ML_251)
 
 ---
 
@@ -52,6 +53,7 @@ ML251/
 │── features/                   # Các feature được trích xuất từ data
 │── modules/                    # Các modules, utils tự viết được tái sử dụng
 │── notebooks/                  # Notebooks cho các bài tập lớn
+│── docs/                       # Github Page
 │── README.md
 │── requirements.txt
 ```
@@ -63,8 +65,8 @@ ML251/
 Clone repo và cài đặt dependencies:
 
 ```bash
-git clone https://github.com/HuynhNhan27/Machine-Learning-Assignment-HK251.git
-cd Machine-Learning-Assignment-HK251
+git clone https://github.com/HuynhNhan27/BTL_ML_251.git
+cd BTL_ML_251
 
 # (Tuỳ chọn) tạo môi trường ảo
 python -m venv venv
