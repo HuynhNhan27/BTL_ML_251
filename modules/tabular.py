@@ -59,6 +59,7 @@ def numeric_plot(df: pd.DataFrame, config: dict, plot="histogram"):
         }
 
     numeric_feature = [(transform, col) for transform, columns in config.items() for col in columns]
+    print(numeric_feature)
 
     cols = 3
     rows = len(numeric_feature) // cols + 1
@@ -108,6 +109,44 @@ def categorical_stat_report(df: pd.DataFrame):
         display(df[col].value_counts().head(10))
     
     return categorical_feature
+
+def categorical_plot(df:pd.DataFrame, config, plot):
+    if config is None:
+        config = {
+            "normal": list(df.select_dtypes(include=["object", "category"]).columns)
+        }
+
+    categorical_feature = [(top_k, col) for top_k, columns in config.items() for col in columns]
+    rows = len(categorical_feature)
+    print(categorical_feature)
+    
+    for it, (top_k, col) in enumerate(categorical_feature):
+        label_counts = df[col].value_counts()
+        if top_k == "top_10":
+            label_counts = label_counts[:10]
+        elif top_k != "normal":
+            print("Unknown top_k")
+            raise ValueError
+        
+        plt.figure(figsize=(len(label_counts) // 2 + 1, 5))
+        plt.xlabel(col)
+        plt.xticks(rotation=45, ha="right")
+
+        if plot == "barplot":
+            sns.barplot(x=label_counts.index, y=label_counts.values, palette="viridis")
+            plt.title(f"Bar plot of {col}")
+        # elif plot == "pieplot":
+        #     plt.pie(label_counts.values, labels=label_counts.index, autopct='%1.1f%%', startangle=90)
+        #     plt.title(f"Pie plot of {col}")
+        else:
+            print("Unknown plot type")
+            raise ValueError
+
+        for i, v in enumerate(label_counts.values):
+            plt.text(i, v + 5, str(v), ha="center", va="bottom")
+        
+        plt.tight_layout()
+        plt.show()
 
 ############### End of Categorical #################
 
@@ -188,7 +227,7 @@ def get_preprocesser(step: str, type: str):
 
 ################################# End of Preprocessing #######################################
 
-def preprocess(preprocess_config: list, data: pd.DataFrame, target: str):
+def multi_preprocess(preprocess_config: list, data: pd.DataFrame, target: str):
     results = pd.DataFrame(columns=[name for name in preprocess_config[0]] + ["data"])
 
     data = data.dropna(subset=[target])
