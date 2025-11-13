@@ -26,10 +26,10 @@ Repo này chứa 4 bài tập lớn của môn học *Học Máy – CO3117*:
 
 | Project | Domain | Status | Dataset | Colab |
 |---------|--------|--------|------------------|-------|
-| **BTL1 – Amazon Product** | Tabular Data (Kaggle) | ✅ Completed | [Tabular Data](https://www.kaggle.com/datasets/ikramshah512/amazon-products-sales-dataset-42k-items-2025) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Y6CAMgL1Y0mev4UZJOi-FPIP7UMF4xSv?usp=sharing) |
-| **BTL2 – Text Processing** | NLP / Text Data | 🔜 Upcoming | _TBD_ | ![Colab Badge](https://img.shields.io/badge/Colab-coming--soon-lightgrey?logo=googlecolab&logoColor=white) |
-| **BTL3 – Image Recognition** | Computer Vision | 🔜 Upcoming | _TBD_ | ![Colab Badge](https://img.shields.io/badge/Colab-coming--soon-lightgrey?logo=googlecolab&logoColor=white) |
-| **Extension – Advanced Topics** | (HMM / Bayesian Network / Conditional Random Field) | 🔜 Upcoming | _TBD_ | ![Colab Badge](https://img.shields.io/badge/Colab-coming--soon-lightgrey?logo=googlecolab&logoColor=white) |
+| **BTL1 – Amazon Product** | Tabular Data | ✅ Completed | [Amazon Products](https://www.kaggle.com/datasets/ikramshah512/amazon-products-sales-dataset-42k-items-2025) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Y6CAMgL1Y0mev4UZJOi-FPIP7UMF4xSv?usp=sharing) |
+| **BTL2 – Text Processing** | Text Data | ✅ Completed | [Emotion Detect](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text/data) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Y6CAMgL1Y0mev4UZJOi-FPIP7UMF4xSv?usp=sharing) |
+| **BTL3 – Image Recognition** | Computer Vision | ✅ Completed | [Mineral Photos](https://www.kaggle.com/datasets/floriangeillon/mineral-photos) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JlpRaJXwa1ZzH9b3-W4kKNYHwkiTW2pD?usp=sharing) |
+| **Extension – Advanced Topics** | Bayesian Network | ✅ Completed | [Student Depression](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset/data) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H6O0cE0q_EYJlBak-Nht_oQqTRyRVR_b?usp=sharing) |
 
 ---
 
@@ -50,10 +50,15 @@ Thông qua các bước xử lý đó, sinh viên hiểu được quy trình x�
 
 ```
 ML251/
-│── features/                   # Các feature được trích xuất từ data
+│── data/                       
+    │── tên_data
+        │── raw_data/           # Data gốc
+        │── features/           # Features trích xuất từ data
+        │── model_result/       # Kết quả của các mô hình
 │── modules/                    # Các modules, utils tự viết được tái sử dụng
 │── notebooks/                  # Notebooks cho các bài tập lớn
 │── docs/                       # Github Page
+|── report/                     # Report phần mở rộng và biên bản họp
 │── README.md
 │── requirements.txt
 ```
