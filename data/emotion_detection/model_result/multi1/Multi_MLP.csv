@@ -1,0 +1,49 @@
+,model,model__activation,model__alpha,model__hidden_layer_sizes,model__learning_rate,model__max_iter,model__solver,f1
+0,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50,)",constant,500,adam,0.24666606001234767
+1,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50,)",adaptive,500,adam,0.24666606001234767
+2,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(100,)",constant,500,adam,0.2629947017432171
+3,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(100,)",adaptive,500,adam,0.2629947017432171
+4,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50, 50)",constant,500,adam,0.2379736831433962
+5,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50, 50)",adaptive,500,adam,0.2379736831433962
+6,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50,)",constant,500,adam,0.25675214015765196
+7,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50,)",adaptive,500,adam,0.25675214015765196
+8,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(100,)",constant,500,adam,0.2681426186502535
+9,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(100,)",adaptive,500,adam,0.2681426186502535
+10,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50, 50)",constant,500,adam,0.24471155613992102
+11,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50, 50)",adaptive,500,adam,0.24471155613992102
+12,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50,)",constant,500,adam,0.24841061066243442
+13,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50,)",adaptive,500,adam,0.24841061066243442
+14,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(100,)",constant,500,adam,0.24741262294851443
+15,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(100,)",adaptive,500,adam,0.24741262294851443
+16,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50, 50)",constant,500,adam,0.2360480661834676
+17,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50, 50)",adaptive,500,adam,0.2360480661834676
+18,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50,)",constant,500,adam,0.29525326073030866
+19,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50,)",adaptive,500,adam,0.29525326073030866
+20,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(100,)",constant,500,adam,0.3050028287001973
+21,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(100,)",adaptive,500,adam,0.3050028287001973
+22,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50, 50)",constant,500,adam,0.23617510116397264
+23,"MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(50, 50),
+              learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50, 50)",adaptive,500,adam,0.23617510116397264

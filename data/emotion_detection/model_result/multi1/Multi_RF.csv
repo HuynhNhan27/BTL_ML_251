@@ -1,0 +1,289 @@
+,model,model__criterion,model__max_depth,model__max_features,model__min_samples_leaf,model__min_samples_split,model__n_estimators,f1
+0,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,1,2,100,0.2341312225319506
+1,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,1,2,200,0.23559205821487944
+2,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,1,5,100,0.23391875558551728
+3,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,1,5,200,0.23345818623443504
+4,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,4,2,100,0.23063509750107108
+5,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,4,2,200,0.23122416461518056
+6,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,4,5,100,0.23063509750107108
+7,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,sqrt,4,5,200,0.23122416461518056
+8,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,1,2,100,0.16835362521998673
+9,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,1,2,200,0.1671909212687913
+10,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,1,5,100,0.1668688378876652
+11,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,1,5,200,0.16609325106337772
+12,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,4,2,100,0.16784992401900767
+13,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,4,2,200,0.16752662214476782
+14,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,4,5,100,0.16784992401900767
+15,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,20.0,log2,4,5,200,0.16752662214476782
+16,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,1,2,100,0.29162170421550343
+17,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,1,2,200,0.29106590454618336
+18,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,1,5,100,0.2876080164740434
+19,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,1,5,200,0.2872397669498881
+20,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,4,2,100,0.2869243232878832
+21,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,4,2,200,0.2849306285641023
+22,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,4,5,100,0.2869243232878832
+23,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,sqrt,4,5,200,0.2849306285641023
+24,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,1,2,100,0.21040088984837482
+25,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,1,2,200,0.20488532615431385
+26,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,1,5,100,0.2060524923702659
+27,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,1,5,200,0.20315130747667942
+28,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,4,2,100,0.19784785785247969
+29,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,4,2,200,0.19272284841410212
+30,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,4,5,100,0.19784785785247969
+31,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,50.0,log2,4,5,200,0.19272284841410212
+32,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,1,2,100,0.30008408299552725
+33,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,1,2,200,0.29927221053840564
+34,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,1,5,100,0.3024128221324977
+35,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,1,5,200,0.30231810224352557
+36,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,4,2,100,0.31448596565386727
+37,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,4,2,200,0.3150279666076013
+38,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,4,5,100,0.31448596565386727
+39,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,sqrt,4,5,200,0.3150279666076013
+40,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,1,2,100,0.2910188285178407
+41,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,1,2,200,0.2942133965207183
+42,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,1,5,100,0.2942322556863431
+43,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,1,5,200,0.2999061270626679
+44,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,4,2,100,0.30163268253176784
+45,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,4,2,200,0.30606138039498043
+46,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,4,5,100,0.30163268253176784
+47,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",gini,,log2,4,5,200,0.30606138039498043
+48,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,1,2,100,0.23381816554804097
+49,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,1,2,200,0.23609076793320755
+50,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,1,5,100,0.23385582985934664
+51,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,1,5,200,0.23434821578931728
+52,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,4,2,100,0.22856407510950397
+53,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,4,2,200,0.2258486378550939
+54,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,4,5,100,0.22856407510950397
+55,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,sqrt,4,5,200,0.2258486378550939
+56,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,1,2,100,0.16881816093493782
+57,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,1,2,200,0.1679300971130402
+58,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,1,5,100,0.1673812887891457
+59,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,1,5,200,0.16719651588627252
+60,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,4,2,100,0.1655026350846782
+61,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,4,2,200,0.165591086936159
+62,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,4,5,100,0.1655026350846782
+63,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,20.0,log2,4,5,200,0.165591086936159
+64,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,1,2,100,0.28635510426614647
+65,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,1,2,200,0.2908948258852027
+66,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,1,5,100,0.2863692504747906
+67,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,1,5,200,0.2882853719196189
+68,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,4,2,100,0.2856869516867955
+69,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,4,2,200,0.28661308317827633
+70,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,4,5,100,0.2856869516867955
+71,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,sqrt,4,5,200,0.28661308317827633
+72,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,1,2,100,0.21156793695159504
+73,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,1,2,200,0.20395928668428429
+74,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,1,5,100,0.20623288468645168
+75,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,1,5,200,0.20408481335460302
+76,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,4,2,100,0.1973193046878025
+77,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,4,2,200,0.19348735458655664
+78,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,4,5,100,0.1973193046878025
+79,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,50.0,log2,4,5,200,0.19348735458655664
+80,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,1,2,100,0.29564000453332595
+81,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,1,2,200,0.29674948019528674
+82,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,1,5,100,0.29902522939064163
+83,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,1,5,200,0.2978971067572909
+84,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,4,2,100,0.30874809128256425
+85,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,4,2,200,0.309245250762512
+86,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,4,5,100,0.30874809128256425
+87,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,sqrt,4,5,200,0.309245250762512
+88,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,1,2,100,0.28935643382440696
+89,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,1,2,200,0.29099851252063824
+90,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,1,5,100,0.2978351073967164
+91,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,1,5,200,0.2960733775249696
+92,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,4,2,100,0.2931633523806088
+93,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,4,2,200,0.29460106890371457
+94,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,4,5,100,0.2931633523806088
+95,"RandomForestClassifier(criterion='entropy', max_features='log2',
+                       min_samples_leaf=4, min_samples_split=5,
+                       n_estimators=200, random_state=42)",entropy,,log2,4,5,200,0.29460106890371457
