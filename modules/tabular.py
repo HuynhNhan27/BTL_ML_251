@@ -12,9 +12,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, OneHotEncoder, OrdinalEncoder
-from sklearn.metrics import r2_score, f1_score
+from sklearn.metrics import r2_score, f1_score, mean_squared_error, mean_absolute_error
 from tqdm import tqdm
-
+import os
 
 plt.style.use('seaborn-v0_8')
 sns.set_palette("husl")
@@ -314,7 +314,85 @@ def train_one_model(params, split_datasets, score, y_transform=None):
 
 ################################# End of Trainning #######################################
 
+# ...existing code...
 
+def train_multi_model(grid, params_df, dataset, score_name="r2", y_scaler=None):
+    """
+    Huấn luyện nhiều cấu hình siêu tham số (Grid Search thủ công) trên một bộ dữ liệu cụ thể.
+    
+    Args:
+        grid (list): Danh sách các dict tham số (từ ParameterGrid).
+        params_df (pd.DataFrame): DataFrame chứa các tham số (để lưu kết quả).
+        data_path (str): Đường dẫn đến thư mục chứa dữ liệu (X_train.csv, y_train.csv, ...).
+        score_name (str): Tên metric chính để sort kết quả.
+        y_scaler (object): Scaler dùng để inverse_transform y (nếu có).
+    
+    Returns:
+        pd.DataFrame: DataFrame kết quả bao gồm tham số và metrics.
+    """
+
+    # 1. Load dữ liệu từ đường dẫn
+    # try:
+    #     X_train = pd.read_csv(os.path.join(data_path, "X_train.csv"))
+    #     y_train = pd.read_csv(os.path.join(data_path, "y_train.csv"))
+    #     X_test = pd.read_csv(os.path.join(data_path, "X_test.csv"))
+    #     y_test = pd.read_csv(os.path.join(data_path, "y_test.csv"))
+    # except FileNotFoundError:
+    #     print(f"Error: Data files not found in {data_path}")
+    #     return pd.DataFrame()
+
+    (X_train, X_test, y_train, y_test) = dataset
+
+    if y_scaler is not None:
+        y_train = y_scaler.fit_transform(y_train.values.reshape(-1, 1))
+
+    results = []
+
+    # 2. Lặp qua từng bộ tham số
+    for params in tqdm(grid, desc="Training Multi Models"):
+        model = params['model']
+        
+        # Lọc bỏ key 'model' và xóa tiền tố 'model__' nếu có để set_params
+        clean_params = {k.replace("model__", ""): v for k, v in params.items() if k != 'model'}
+        model.set_params(**clean_params)
+
+        # Huấn luyện
+        # y_train.values.ravel() để chuyển thành mảng 1 chiều nếu cần
+        model.fit(X_train, y_train)
+        
+        # Dự đoán
+        y_pred_scaled = model.predict(X_test)
+
+        # Inverse transform nếu có scaler (để tính metric trên giá trị thực)
+        if y_scaler:
+            # Reshape (-1, 1) vì scaler yêu cầu mảng 2D
+            y_pred = y_scaler.inverse_transform(y_pred_scaled.reshape(-1, 1))
+            # Lưu ý: y_test load từ file csv thường là giá trị gốc (chưa scale) 
+            # hoặc đã scale tùy vào cách bạn lưu ở bước preprocess.
+            # Ở đây giả định y_test từ file là Ground Truth (giá trị thực).
+        else:
+            y_pred = y_pred_scaled
+
+        # Tính toán metrics
+        mse = mean_squared_error(y_test, y_pred)
+        rmse = np.sqrt(mse)
+        mae = mean_absolute_error(y_test, y_pred)
+        r2 = r2_score(y_test, y_pred)
+
+        results.append({
+            "mse": mse,
+            "rmse": rmse,
+            "mae": mae,
+            "r2": r2
+        })
+
+    # 3. Tổng hợp kết quả
+    results_df = pd.DataFrame(results)
+    # Ghép cột tham số và cột kết quả
+    final_df = pd.concat([params_df.reset_index(drop=True), results_df], axis=1)
+    
+    return final_df.sort_values(by=score_name, ascending=(score_name != "r2")) 
+    # Nếu score là r2 thì giảm dần (cao là tốt), ngược lại (mse, rmse) thì tăng dần (thấp là tốt)
 
 
 
