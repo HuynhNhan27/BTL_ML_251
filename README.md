@@ -15,7 +15,7 @@
 | 2313912 | Lê Công Vinh | vinh.le020705@hcmut.edu.vn |
 
 
-🌐 **Landing Page:** [Comming soon]()  
+🌐 **Landing Page:** [Comming soon](https://huynhnhan27.github.io/BTL_ML_251/)  
 🔗 **Github Repo:** [Github](https://github.com/HuynhNhan27/BTL_ML_251)
 
 ---
