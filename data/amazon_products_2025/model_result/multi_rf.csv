@@ -1,0 +1,325 @@
+,model,model__max_depth,model__max_features,model__min_samples_leaf,model__min_samples_split,model__n_estimators,mse,rmse,mae,r2
+81,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,2,100,1125.5625884994345,33.54940518845952,5.055826191937101,0.9950762867402151
+54,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,2,100,1125.5625884994345,33.54940518845952,5.055826191937101,0.9950762867402151
+55,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,2,200,1140.4220908940897,33.7701360804793,5.075810150809972,0.9950112846428445
+82,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,2,200,1140.4220908940897,33.7701360804793,5.075810150809972,0.9950112846428445
+83,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,2,300,1158.8243585765167,34.041509346333584,5.13580393814037,0.9949307849084682
+56,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,2,300,1158.8243585765167,34.041509346333584,5.13580393814037,0.9949307849084682
+110,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,2,300,1192.359637227632,34.53056091678257,5.166671126088179,0.9947840866281129
+137,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,2,300,1192.359637227632,34.53056091678257,5.166671126088179,0.9947840866281129
+135,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,2,100,1208.708695514717,34.7664881101718,5.173353928619534,0.9947125685482695
+108,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,2,100,1208.708695514717,34.7664881101718,5.173353928619534,0.9947125685482695
+109,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,2,200,1209.6894218597452,34.780589728464136,5.1795162898322085,0.9947082784133995
+136,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,2,200,1209.6894218597452,34.780589728464136,5.1795162898322085,0.9947082784133995
+57,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,5,100,1347.6644003152005,36.71054889694787,5.374159023845311,0.9941047142598989
+84,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,5,100,1347.6644003152005,36.71054889694787,5.374159023845311,0.9941047142598989
+85,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,5,200,1349.3231837037388,36.73313468387552,5.3507990758297534,0.9940974580008078
+58,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,5,200,1349.3231837037388,36.73313468387552,5.3507990758297534,0.9940974580008078
+59,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,5,300,1353.527942935446,36.79032403955483,5.342558198568787,0.99407906450675
+86,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,5,300,1353.527942935446,36.79032403955483,5.342558198568787,0.99407906450675
+95,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,5,300,1359.96122419305,36.87765209707703,5.773516056840159,0.9940509224624464
+68,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,5,300,1359.96122419305,36.87765209707703,5.773516056840159,0.9940509224624464
+67,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,5,200,1365.1082605822173,36.94737149760748,5.771014639376262,0.9940284070274303
+94,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,5,200,1365.1082605822173,36.94737149760748,5.771014639376262,0.9940284070274303
+146,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,2,300,1392.853633199114,37.32095434469909,5.779715994259671,0.9939070363809223
+119,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,2,300,1392.853633199114,37.32095434469909,5.779715994259671,0.9939070363809223
+92,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,2,300,1407.4532278645381,37.5160396079402,5.774611846689262,0.9938431712359929
+65,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,2,300,1407.4532278645381,37.5160396079402,5.774611846689262,0.9938431712359929
+62,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,10,300,1414.8157481184492,37.614036583680424,5.620308258586597,0.9938109642854687
+89,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,10,300,1414.8157481184492,37.614036583680424,5.620308258586597,0.9938109642854687
+122,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,5,300,1417.104673854192,37.644450771052455,5.8010716950248735,0.9938009515024294
+149,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,5,300,1417.104673854192,37.644450771052455,5.8010716950248735,0.9938009515024294
+145,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,2,200,1417.8026630939673,37.653720441597365,5.826105268758517,0.9937978981858834
+118,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,2,200,1417.8026630939673,37.653720441597365,5.826105268758517,0.9937978981858834
+111,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,5,100,1447.8955246556895,38.05122238057129,5.409333713252486,0.9936662585747145
+138,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,5,100,1447.8955246556895,38.05122238057129,5.409333713252486,0.9936662585747145
+61,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,10,200,1460.410444261888,38.215316880301906,5.683298291751196,0.9936115127291792
+88,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,10,200,1460.410444261888,38.215316880301906,5.683298291751196,0.9936115127291792
+113,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,5,300,1460.6398619276265,38.21831840789998,5.302635896175809,0.9936105091538878
+140,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,5,300,1460.6398619276265,38.21831840789998,5.302635896175809,0.9936105091538878
+148,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,5,200,1470.2770133586662,38.344191390074535,5.827333134915617,0.9935683519511055
+121,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,5,200,1470.2770133586662,38.344191390074535,5.827333134915617,0.9935683519511055
+91,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,2,200,1480.5852228255455,38.478373443085474,5.8536947169164195,0.9935232592408864
+64,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,2,200,1480.5852228255455,38.478373443085474,5.8536947169164195,0.9935232592408864
+116,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,10,300,1486.678464202815,38.55746962914987,5.5872195996123795,0.9934966046828272
+143,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,10,300,1486.678464202815,38.55746962914987,5.5872195996123795,0.9934966046828272
+139,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,5,200,1501.5022327808583,38.74922235065961,5.342612262829328,0.9934317589011236
+112,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,5,200,1501.5022327808583,38.74922235065961,5.342612262829328,0.9934317589011236
+66,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,5,100,1509.2163488181236,38.84863380890149,5.9571233734450875,0.9933980139136761
+93,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,5,100,1509.2163488181236,38.84863380890149,5.9571233734450875,0.9933980139136761
+123,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,10,100,1515.0266372627866,38.92334308949819,6.169819175756917,0.9933725971180661
+150,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,10,100,1515.0266372627866,38.92334308949819,6.169819175756917,0.9933725971180661
+147,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,5,100,1518.3203406809218,38.9656302487323,5.98384880248834,0.9933581889888697
+120,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,5,100,1518.3203406809218,38.9656302487323,5.98384880248834,0.9933581889888697
+60,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,1,10,100,1520.7212906507386,38.99642663951069,5.778752886960661,0.9933476861618185
+87,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,1,10,100,1520.7212906507386,38.99642663951069,5.778752886960661,0.9933476861618185
+90,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,2,100,1538.4830720438267,39.22350152706699,6.036117198122294,0.9932699882004112
+63,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,2,100,1538.4830720438267,39.22350152706699,6.036117198122294,0.9932699882004112
+117,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,2,100,1547.2243247833565,39.33477246385641,5.957827777017549,0.9932317500584719
+144,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,2,100,1547.2243247833565,39.33477246385641,5.957827777017549,0.9932317500584719
+71,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,10,300,1570.511725354777,39.62968237766708,6.113201968903669,0.9931298805719138
+98,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,10,300,1570.511725354777,39.62968237766708,6.113201968903669,0.9931298805719138
+142,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,10,200,1580.3780394240182,39.75396885122312,5.6749937197198586,0.9930867209094443
+115,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,10,200,1580.3780394240182,39.75396885122312,5.6749937197198586,0.9930867209094443
+96,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,10,100,1588.9625276651536,39.86179283054331,6.2328306687887585,0.9930491685254069
+69,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,10,100,1588.9625276651536,39.86179283054331,6.2328306687887585,0.9930491685254069
+70,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,2,10,200,1616.3521744233901,40.203882578967296,6.186921053962772,0.9929293539826154
+97,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,2,10,200,1616.3521744233901,40.203882578967296,6.186921053962772,0.9929293539826154
+152,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,10,300,1635.2575709107007,40.43831810190306,6.11098475993333,0.9928466533382291
+125,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,10,300,1635.2575709107007,40.43831810190306,6.11098475993333,0.9928466533382291
+114,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,1,10,100,1677.6252987685332,40.958824430988415,5.719041676508389,0.9926613179818731
+141,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,1,10,100,1677.6252987685332,40.958824430988415,5.719041676508389,0.9926613179818731
+161,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,10,300,1678.7013752273633,40.97195840117193,6.892478915585777,0.992656610743037
+134,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,10,300,1678.7013752273633,40.97195840117193,6.892478915585777,0.992656610743037
+74,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,2,300,1681.8771626435273,41.01069571030864,6.8128036050232295,0.9926427184310759
+101,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,2,300,1681.8771626435273,41.01069571030864,6.8128036050232295,0.9926427184310759
+104,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,5,300,1681.8771626435273,41.01069571030864,6.8128036050232295,0.9926427184310759
+77,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,5,300,1681.8771626435273,41.01069571030864,6.8128036050232295,0.9926427184310759
+159,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,10,100,1705.7535753021577,41.300769669609764,6.915847756821202,0.992538272342689
+132,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,10,100,1705.7535753021577,41.300769669609764,6.915847756821202,0.992538272342689
+124,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,2,10,200,1708.5563934929144,41.33468753351009,6.197394816785484,0.9925260115646287
+151,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,2,10,200,1708.5563934929144,41.33468753351009,6.197394816785484,0.9925260115646287
+160,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,10,200,1709.167371998439,41.342077499787536,6.852844066518713,0.9925233388718795
+133,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,10,200,1709.167371998439,41.342077499787536,6.852844066518713,0.9925233388718795
+79,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,10,200,1782.1057904308998,42.21499485290623,6.949524685849889,0.9922042736669294
+106,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,10,200,1782.1057904308998,42.21499485290623,6.949524685849889,0.9922042736669294
+107,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,10,300,1784.2192614066482,42.2400196662673,6.956010277691549,0.9921950284013407
+80,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,10,300,1784.2192614066482,42.2400196662673,6.956010277691549,0.9921950284013407
+73,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,2,200,1795.489121118762,42.373212305875064,6.904143490030346,0.9921457290036284
+100,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,2,200,1795.489121118762,42.373212305875064,6.904143490030346,0.9921457290036284
+103,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,5,200,1795.489121118762,42.373212305875064,6.904143490030346,0.9921457290036284
+76,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,5,200,1795.489121118762,42.373212305875064,6.904143490030346,0.9921457290036284
+128,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,2,300,1830.6084223690211,42.7856099917837,6.891391126460869,0.9919921015012513
+131,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,5,300,1830.6084223690211,42.7856099917837,6.891391126460869,0.9919921015012513
+155,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,2,300,1830.6084223690211,42.7856099917837,6.891391126460869,0.9919921015012513
+158,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,5,300,1830.6084223690211,42.7856099917837,6.891391126460869,0.9919921015012513
+102,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,5,100,1837.1125547183979,42.86155100691525,6.9451587388188605,0.9919636495226415
+99,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,2,100,1837.1125547183979,42.86155100691525,6.9451587388188605,0.9919636495226415
+72,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,2,100,1837.1125547183979,42.86155100691525,6.9451587388188605,0.9919636495226415
+75,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,5,100,1837.1125547183979,42.86155100691525,6.9451587388188605,0.9919636495226415
+41,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,5,300,1842.790509958515,42.927735905338814,12.867958722780365,0.9919388116115472
+14,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,5,300,1842.790509958515,42.927735905338814,12.867958722780365,0.9919388116115472
+105,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,log2,4,10,100,1868.1647745056932,43.22227174161133,7.012314297368224,0.9918278132502968
+78,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",20.0,sqrt,4,10,100,1868.1647745056932,43.22227174161133,7.012314297368224,0.9918278132502968
+11,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,2,300,1869.1898359831428,43.23412813950505,13.02150528975233,0.9918233291737646
+38,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,2,300,1869.1898359831428,43.23412813950505,13.02150528975233,0.9918233291737646
+40,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,5,200,1871.450804016003,43.26026819167911,13.06901706643149,0.9918134386901992
+13,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,5,200,1871.450804016003,43.26026819167911,13.06901706643149,0.9918134386901992
+127,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,2,200,1874.9252321481333,43.300406835827,6.946591422306694,0.9917982399904208
+154,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,2,200,1874.9252321481333,43.300406835827,6.946591422306694,0.9917982399904208
+130,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,5,200,1874.9252321481333,43.300406835827,6.946591422306694,0.9917982399904208
+157,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,5,200,1874.9252321481333,43.300406835827,6.946591422306694,0.9917982399904208
+5,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,5,300,1912.6032756734103,43.73331997085758,12.860790668894944,0.9916334194070044
+32,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,5,300,1912.6032756734103,43.73331997085758,12.860790668894944,0.9916334194070044
+10,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,2,200,1954.3386960331025,44.207903094730725,13.187521888295983,0.9914508500459335
+37,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,2,200,1954.3386960331025,44.207903094730725,13.187521888295983,0.9914508500459335
+4,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,5,200,1963.0627529615006,44.306464008782065,13.006765718870435,0.9914126871261488
+31,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,5,200,1963.0627529615006,44.306464008782065,13.006765718870435,0.9914126871261488
+29,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,2,300,1980.654934655574,44.50454959501977,12.81095664038479,0.9913357310695415
+2,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,2,300,1980.654934655574,44.50454959501977,12.81095664038479,0.9913357310695415
+129,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,5,100,1982.7976756691191,44.52861636823133,7.122615290141631,0.9913263577637401
+126,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,sqrt,4,2,100,1982.7976756691191,44.52861636823133,7.122615290141631,0.9913263577637401
+153,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,2,100,1982.7976756691191,44.52861636823133,7.122615290141631,0.9913263577637401
+156,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",,log2,4,5,100,1982.7976756691191,44.52861636823133,7.122615290141631,0.9913263577637401
+3,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,5,100,2002.39546244967,44.748133619735135,13.324590196419964,0.9912406282950994
+30,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,5,100,2002.39546244967,44.748133619735135,13.324590196419964,0.9912406282950994
+39,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,5,100,2007.5362709321525,44.805538395740236,13.277031324282165,0.9912181401037276
+12,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,5,100,2007.5362709321525,44.805538395740236,13.277031324282165,0.9912181401037276
+15,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,10,100,2023.9004680912412,44.98778131994555,12.802141874547635,0.9911465557996993
+42,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,10,100,2023.9004680912412,44.98778131994555,12.802141874547635,0.9911465557996993
+36,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,2,100,2034.5576136229993,45.10607069589413,13.384743384537408,0.9910999366873529
+9,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,2,100,2034.5576136229993,45.10607069589413,13.384743384537408,0.9910999366873529
+1,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,2,200,2073.235213801362,45.53279273009028,13.031227628490765,0.9909307435968925
+28,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,2,200,2073.235213801362,45.53279273009028,13.031227628490765,0.9909307435968925
+24,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,10,100,2122.3183882732196,46.06862694147959,13.729132029954226,0.9907160318789936
+51,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,10,100,2122.3183882732196,46.06862694147959,13.729132029954226,0.9907160318789936
+27,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,2,100,2122.453943164169,46.07009814580569,13.343366260035738,0.9907154389013832
+0,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,2,100,2122.453943164169,46.07009814580569,13.343366260035738,0.9907154389013832
+43,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,10,200,2136.295501023697,46.22007681758758,13.410474710171624,0.9906548897478619
+16,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,10,200,2136.295501023697,46.22007681758758,13.410474710171624,0.9906548897478619
+17,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,2,10,300,2143.879841942192,46.30205008357829,13.297826163948352,0.9906217124547209
+44,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,2,10,300,2143.879841942192,46.30205008357829,13.297826163948352,0.9906217124547209
+53,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,10,300,2148.228975485546,46.34899109458097,13.612478537013947,0.9906026874029692
+26,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,10,300,2148.228975485546,46.34899109458097,13.612478537013947,0.9906026874029692
+8,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,10,300,2198.5490308786816,46.88868766428297,13.361502001030592,0.9903825650157259
+35,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,10,300,2198.5490308786816,46.88868766428297,13.361502001030592,0.9903825650157259
+23,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,5,300,2223.2676633998963,47.15153935344949,13.519881064718227,0.9902744346816582
+20,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,2,300,2223.2676633998963,47.15153935344949,13.519881064718227,0.9902744346816582
+50,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,5,300,2223.2676633998963,47.15153935344949,13.519881064718227,0.9902744346816582
+47,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,2,300,2223.2676633998963,47.15153935344949,13.519881064718227,0.9902744346816582
+52,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,10,200,2242.6773134521954,47.35691410398481,13.832172086578858,0.990189528207059
+25,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,10,200,2242.6773134521954,47.35691410398481,13.832172086578858,0.990189528207059
+6,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,10,100,2252.202121286229,47.45737162218562,13.423267528286583,0.9901478624453248
+33,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,10,100,2252.202121286229,47.45737162218562,13.423267528286583,0.9901478624453248
+22,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,5,200,2307.2309559995347,48.033644000841065,13.809167276562311,0.9899071417551412
+19,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,2,200,2307.2309559995347,48.033644000841065,13.809167276562311,0.9899071417551412
+46,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,2,200,2307.2309559995347,48.033644000841065,13.809167276562311,0.9899071417551412
+49,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,5,200,2307.2309559995347,48.033644000841065,13.809167276562311,0.9899071417551412
+7,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,1,10,200,2342.3533413361656,48.397865049361066,13.697366057636664,0.9897535007615934
+34,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,1,10,200,2342.3533413361656,48.397865049361066,13.697366057636664,0.9897535007615934
+21,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,5,100,2454.3497259457135,49.54139406542486,13.73370250407247,0.9892635785754934
+18,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,sqrt,4,2,100,2454.3497259457135,49.54139406542486,13.73370250407247,0.9892635785754934
+48,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,5,100,2454.3497259457135,49.54139406542486,13.73370250407247,0.9892635785754934
+45,"RandomForestRegressor(max_features='log2', min_samples_leaf=4,
+                      min_samples_split=10, n_estimators=300, random_state=42)",10.0,log2,4,2,100,2454.3497259457135,49.54139406542486,13.73370250407247,0.9892635785754934

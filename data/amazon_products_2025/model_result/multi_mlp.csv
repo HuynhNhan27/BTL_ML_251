@@ -1,0 +1,97 @@
+,model,model__activation,model__alpha,model__hidden_layer_sizes,model__learning_rate,model__max_iter,model__solver,mse,rmse,mae,r2
+23,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(100, 50)",adaptive,500,adam,1380.7429641051244,37.15834985713338,10.33510782186815,0.9939600138542428
+22,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(100, 50)",constant,500,adam,1380.7429641051244,37.15834985713338,10.33510782186815,0.9939600138542428
+15,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(100, 50)",adaptive,500,adam,1469.0299635572228,38.3279266796056,10.040025426547441,0.9935738071036716
+14,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(100, 50)",constant,500,adam,1469.0299635572228,38.3279266796056,10.040025426547441,0.9935738071036716
+6,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(100, 50)",constant,500,adam,1507.0697589047504,38.820996366718234,10.006016222801195,0.9934074040562837
+7,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(100, 50)",adaptive,500,adam,1507.0697589047504,38.820996366718234,10.006016222801195,0.9934074040562837
+4,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50, 50)",constant,500,adam,1652.4953989218893,40.6508966558167,11.215905970954744,0.9927712473828288
+5,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50, 50)",adaptive,500,adam,1652.4953989218893,40.6508966558167,11.215905970954744,0.9927712473828288
+13,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(50, 50)",adaptive,500,adam,1764.3413801792328,42.00406385314679,11.565977756216082,0.9922819831281376
+12,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(50, 50)",constant,500,adam,1764.3413801792328,42.00406385314679,11.565977756216082,0.9922819831281376
+9,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(50,)",adaptive,500,adam,2140.643379699006,46.267087434795435,12.786263758798805,0.9906358701854632
+8,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(50,)",constant,500,adam,2140.643379699006,46.267087434795435,12.786263758798805,0.9906358701854632
+0,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50,)",constant,500,adam,2199.205824805412,46.895690898049594,13.027687411246886,0.9903796919058704
+1,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(50,)",adaptive,500,adam,2199.205824805412,46.895690898049594,13.027687411246886,0.9903796919058704
+17,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50,)",adaptive,500,adam,2439.145690185893,49.38770788552444,13.991170742257232,0.9893300878156173
+16,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50,)",constant,500,adam,2439.145690185893,49.38770788552444,13.991170742257232,0.9893300878156173
+10,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(100,)",constant,500,adam,2605.181422790526,51.040977878470606,12.878034990152019,0.9886037733959869
+11,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.001,"(100,)",adaptive,500,adam,2605.181422790526,51.040977878470606,12.878034990152019,0.9886037733959869
+3,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(100,)",adaptive,500,adam,2686.68894110598,51.833280246439934,13.00406972736171,0.9882472231225482
+2,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.0001,"(100,)",constant,500,adam,2686.68894110598,51.833280246439934,13.00406972736171,0.9882472231225482
+19,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(100,)",adaptive,500,adam,2690.8532469105285,51.87343488637058,14.330262930470234,0.9882290065898407
+18,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(100,)",constant,500,adam,2690.8532469105285,51.87343488637058,14.330262930470234,0.9882290065898407
+21,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50, 50)",adaptive,500,adam,3207.273525818346,56.63279549711762,18.874160527331902,0.9859699537385282
+20,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",relu,0.01,"(50, 50)",constant,500,adam,3207.273525818346,56.63279549711762,18.874160527331902,0.9859699537385282
+30,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(100, 50)",constant,500,adam,5087.869705226792,71.32930467365283,19.880836879808598,0.9777433864738871
+31,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(100, 50)",adaptive,500,adam,5087.869705226792,71.32930467365283,19.880836879808598,0.9777433864738871
+39,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(100, 50)",adaptive,500,adam,5260.266766538302,72.5276965478589,20.17991680462872,0.9769892447625328
+38,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(100, 50)",constant,500,adam,5260.266766538302,72.5276965478589,20.17991680462872,0.9769892447625328
+46,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(100, 50)",constant,500,adam,5420.770020330164,73.62587874063144,20.97906473039906,0.9762871318751569
+47,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(100, 50)",adaptive,500,adam,5420.770020330164,73.62587874063144,20.97906473039906,0.9762871318751569
+28,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50, 50)",constant,500,adam,6530.017348233596,80.8085227450273,22.37550869278797,0.9714347888490259
+29,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50, 50)",adaptive,500,adam,6530.017348233596,80.8085227450273,22.37550869278797,0.9714347888490259
+36,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(50, 50)",constant,500,adam,6642.057383784011,81.49881829685637,22.546395104452035,0.970944675714223
+37,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(50, 50)",adaptive,500,adam,6642.057383784011,81.49881829685637,22.546395104452035,0.970944675714223
+41,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50,)",adaptive,500,adam,7506.10373514826,86.63777314282876,21.699451374545855,0.9671649512273309
+40,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50,)",constant,500,adam,7506.10373514826,86.63777314282876,21.699451374545855,0.9671649512273309
+24,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50,)",constant,500,adam,7730.235458788801,87.92175759610815,21.345627944672884,0.9661844990064565
+25,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(50,)",adaptive,500,adam,7730.235458788801,87.92175759610815,21.345627944672884,0.9661844990064565
+32,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(50,)",constant,500,adam,7750.483856008495,88.03683238286402,21.34550241392854,0.9660959234772957
+33,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(50,)",adaptive,500,adam,7750.483856008495,88.03683238286402,21.34550241392854,0.9660959234772957
+43,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(100,)",adaptive,500,adam,8453.115144607324,91.94082414579131,21.844917597981237,0.9630223005372991
+42,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(100,)",constant,500,adam,8453.115144607324,91.94082414579131,21.844917597981237,0.9630223005372991
+45,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50, 50)",adaptive,500,adam,8816.392722976198,93.89564805131384,26.0054403054659,0.961433162227379
+44,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.01,"(50, 50)",constant,500,adam,8816.392722976198,93.89564805131384,26.0054403054659,0.961433162227379
+26,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(100,)",constant,500,adam,11123.906322616622,105.46993089320112,28.898331336863915,0.9513390675730511
+27,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.0001,"(100,)",adaptive,500,adam,11123.906322616622,105.46993089320112,28.898331336863915,0.9513390675730511
+34,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(100,)",constant,500,adam,11165.18791751726,105.66545280988134,28.97842249113833,0.9511584834471445
+35,"MLPRegressor(activation='tanh', alpha=0.01, hidden_layer_sizes=(100, 50),
+             learning_rate='adaptive', max_iter=500, random_state=42)",tanh,0.001,"(100,)",adaptive,500,adam,11165.18791751726,105.66545280988134,28.97842249113833,0.9511584834471445
